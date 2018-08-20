@@ -53,7 +53,7 @@ def over? (board)
   end
 end
 
-def winner (board, token)
+def winner (board)
   token = []
   token = won?
   if token == false
@@ -63,5 +63,4 @@ def winner (board, token)
   else
     return "O"
   end
-end
 end
